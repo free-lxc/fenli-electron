@@ -1,0 +1,79 @@
+.app-container {
+    padding: 24px;
+    background: #f0f2f5;
+    min-height: 100vh;
+
+    .header-card {
+        margin-bottom: 16px;
+
+        .mode-tabs {
+            margin-top: 16px;
+        }
+
+        .input-section {
+            .input-group {
+                margin-bottom: 16px;
+
+                .label {
+                    display: block;
+                    margin-bottom: 8px;
+                    font-weight: 500;
+                    color: rgba(0, 0, 0, 0.85);
+                }
+
+                .upload-info {
+                    margin-top: 8px;
+                    padding: 8px;
+                    background: #f0f0f0;
+                    border-radius: 4px;
+                    color: #666;
+                }
+            }
+
+            .button-group {
+                display: flex;
+                gap: 12px;
+            }
+        }
+    }
+
+    .stats-card {
+        margin-bottom: 16px;
+    }
+
+    .directory-tree-card {
+        margin-bottom: 16px;
+    }
+
+    .result-card {
+        .result-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+
+            h3 {
+                margin: 0;
+            }
+        }
+
+        .json-view {
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 12px;
+        }
+    }
+
+    .loading-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(255, 255, 255, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+    }
+}
+

@@ -1,0 +1,17 @@
+{
+  "name": "dependency-analyzer-scripts",
+  "version": "1.0.0",
+  "description": "依赖分析工具核心脚本",
+  "main": "index.js",
+  "bin": {
+    "analyze-deps": "./index.js"
+  },
+  "keywords": [
+    "dependency",
+    "analyzer",
+    "graph"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
